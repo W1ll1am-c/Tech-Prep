@@ -1,6 +1,13 @@
 @charset "utc-8";
+@import url();
+
+/** Defualt sytle for tthe website**/
 
 a{
     color: unset;
     text-decoration: none;
+}
+
+head,body{
+    font-family: cinzel;
 }
