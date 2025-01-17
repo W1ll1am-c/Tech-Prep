@@ -65,5 +65,5 @@ const updates = [
     }
   });
   
-  // Start displaying updates
+
   window.onload = displayUpdates;
