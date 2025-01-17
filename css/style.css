@@ -1,20 +1,108 @@
-@charset "utc-8";
-@import url();
-
-/* Defualt sytle for tthe website */
-
-/* Removes the preset link styles ex:underline, color*/
-a{
-    color: unset;
-    text-decoration: none;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
 }
 
-/* defualt style for head and body*/
-head,body{
-    font-family: placeholder;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    padding: 10px 20px;
 }
 
-/*remove list style*/
-ul{
+header img {
+    width: 70px;
+}
+
+nav ul {
     list-style: none;
+    display: flex;
+    gap: 30px; /* Increased gap for spacing */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    cursor: pointer;
+}
+
+a {
+    color: white; 
+    text-decoration: none; /
+}
+
+a:visited {
+    color: white; 
+}
+
+a:hover {
+    color: lightgray; 
+}
+
+a:active {
+    color: lightblue; 
+}
+
+.showcase {
+    position: relative;
+    background-color: #222;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.showcase img {
+    max-height: 300px;
+    margin-bottom: 20px;
+}
+
+.showcase button {
+    background-color:#004d24;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.upcoming {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+    padding: 20px 0;
+}
+
+.upcoming img {
+    width: 120px;
+    margin-right: 20px;
+}
+
+.upcoming div {
+    text-align: center;
+}
+
+.upcoming button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #000;
+    text-align: center;
+    padding: 10px;
+    color: #888;
+    font-size: 0.9rem;
 }
