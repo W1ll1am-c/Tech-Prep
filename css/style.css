@@ -20,7 +20,7 @@ header img {
 nav ul {
     list-style: none;
     display: flex;
-    gap: 30px; /* Increased gap for spacing */
+    gap: 30px;
     margin: 0;
     padding: 0;
 }
@@ -31,7 +31,7 @@ nav ul li {
 
 a {
     color: white; 
-    text-decoration: none; /
+    text-decoration: none; 
 }
 
 a:visited {
