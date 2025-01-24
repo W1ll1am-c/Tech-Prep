@@ -18,13 +18,27 @@
     <link href="css/style.css" rel="stylesheet">
     <title>Holocards - Home</title>
     <link rel="icon" type="" href="">
+    
 </head>
 
 <body>
+    <script src="Scripts/script.js"></script>
     <header>
-        <a href = "index.html"><img src="image/HC.png" alt="Logo"></a>
+        <a href="index.html"><img src="image/HC.png" alt="Logo"></a>
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
         <nav>
             <ul>
+                <li><a href="database.html">Card Database</a></li>
+                <li><a href="playnow.html">Play Now</a></li>
+                <li><a href="learn.html">Learn HC:TCG</a></li>
+                <li><a href="update.html">Updates</a></li>
+            </ul>
+
+            <ul class="nav-menu">
                 <li><a href="database.html">Card Database</a></li>
                 <li><a href="playnow.html">Play Now</a></li>
                 <li><a href="learn.html">Learn HC:TCG</a></li>
