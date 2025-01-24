@@ -1,9 +1,9 @@
 const updates = [
     "Initializing update log...",
-    "Patch 0.1.0 Applied!",
+    "Patch 0.5.0 Applied!",
     "Patch Notes:",
-    "Created Website, base layout is set, not concrete though.",
-    "Hallowcards: The Game is WIP... Will add game and instructions soon...",
+    "Added mobile views... Kinda broken, but useable",
+    "Hallowcards: The Game is still WIP... Game is in the testing phase!",
     " ",
     "You are logged in as 'UPDATE'   --Type 'fetch' for current engine version.   --Type exit to quit.", 
     "Holocards | MMXXV"
