@@ -19,6 +19,9 @@ const updates = [
  update ttyl --Type 'exit' to quit.
   `;
   
+  const bomboclat = 'Bombo.. and a rasclat!'
+
+  const help = 'Commands [insert commands here]'
 
   const terminalOutput = document.getElementById("terminal-output");
   const terminalInput = document.getElementById("terminal-input");

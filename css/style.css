@@ -4,11 +4,16 @@
     
 }
 
+@font-face {
+    font-family: 'gotham-ultra';
+    src: url('Gotham-Ultra.otf') format('truetype');
+    
+}
 
 body {
 
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'alconica';
     background-color: #000;
     color: #fff;
     overflow-x: hidden;
@@ -73,6 +78,8 @@ a:active {
     align-items: center;
     flex-direction: column;
     text-align: Center;
+    font-family: 'gotham-ultra';
+ 
 }
 
 .showcase img {
