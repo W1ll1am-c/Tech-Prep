@@ -3,7 +3,7 @@ const updates = [
     "Patch 0.5.0 Applied!",
     "Patch Notes:",
     "Added mobile views... Kinda broken, but useable",
-    "Hallowcards: The Game is still WIP... Game is in the testing phase!",
+    "Holocards: The Game is still WIP... Game is in the testing phase!",
     " ",
     "You are logged in as 'UPDATE'   --Type 'fetch' for current engine version.   --Type exit to quit.", 
     "Holocards | MMXXV"
@@ -11,7 +11,7 @@ const updates = [
   
   const fetchArt = ` 
  ───▄▀▀▀▄▄▄▄▄▄▄▀▀▀▄─── Dizz HTML Engine V0.1.0 (Sleepy Bear)
- ───█▒▒░░░░░░░░░▒▒█─── Last Updated Fri Jan 17 00:00:00
+ ───█▒▒░░░░░░░░░▒▒█─── Last Updated Mon Jan 27 14:52:34
  ────█░░█░░░░░█░░█──── Logged in as 'UPDATE'
  ─▄▄──█░░░▀█▀░░░█──▄▄─ 
  █░░█─▀▄░░░░░░░▄▀─█░░█ Don't wake the bear.
