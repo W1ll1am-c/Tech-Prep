@@ -11,6 +11,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #000;
     color: #fff;
+    overflow-x: hidden;
 }
 
 header {
@@ -19,10 +20,17 @@ header {
     align-items: center;
     background-color: #111;
     padding: 10px 20px;
+    position: fixed; /* Keeps the header fixed at the top of the page */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1100; /* Ensure header stays on top of other elements */
 }
 
 header img {
     width: 70px;
+    position: relative;
+    z-index: 1600;
 }
 
 nav ul {
@@ -32,6 +40,7 @@ nav ul {
     margin: 0;
     padding: 0;
     font-family: alconica;
+    margin-right: 50px;
 }
 
 nav ul li {
@@ -58,7 +67,7 @@ a:active {
 .showcase {
     position: relative;
     background-color: #222;
-    height: 70vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -118,20 +127,18 @@ footer {
 
 /* Base styles for the hamburger menu */
 .hamburger {
-    display: none;
+    display: none; /* Hidden on desktop */
     flex-direction: column;
     cursor: pointer;
     gap: 5px;
-    position: absolute; /* Ensure it's positioned within the header */
-    top: 50%; /* Align vertically */
-    right: 20px; /* Position it to the right */
-    transform: translateY(-50%); /* Center vertically */
+    position: absolute; /* Positioned inside the header */
+    top: 50%; /* Center vertically */
+    right: 60px; /* Align to the right */
+    transform: translateY(-50%); /* Correct vertical alignment */
+    z-index: 1200; /* Above the menu */
 }
 
-header {
-    position: relative; /* Ensure the hamburger stays inside the header */
-}
-
+/* Hamburger div (3 lines) */
 .hamburger div {
     width: 25px;
     height: 3px;
@@ -143,19 +150,38 @@ header {
 .nav-menu {
     display: none; /* Hidden by default */
     flex-direction: column;
-    gap: 20px;
-    position: absolute;
-    top: 60px;
-    right: 20px;
-    background-color: #111;
-    padding: 20px;
-    border-radius: 8px;
-    z-index: 1000;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.95); /* Dark overlay */
+    z-index: 500;
+    text-align: center;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
 }
 
 .nav-menu.active {
-    display: flex; /* Show menu when active */
+    transform: translateX(0); /* Slide in the menu */
+    display: flex;
+}
+
+.nav-menu li {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+    color: lightgray;
 }
 
 @media (max-width: 768px) {
