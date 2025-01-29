@@ -91,6 +91,7 @@ a:active {
 .showcase img {
     max-height: 200px;
     margin-bottom: 20px;
+   
 }
 
 .showcase button {
@@ -219,6 +220,7 @@ footer {
         flex-direction: column;
         text-align: Center;
         font-family: 'gotham-ultra';
+        padding: 0px;
      
     } 
 }
