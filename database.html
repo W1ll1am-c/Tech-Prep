@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet">
-    <title>Database | Holocards</title>
+    <link href="css/animation.css" rel="stylesheet">
+    <title>Learn | Holocards</title>
     <link rel="icon" type="image/x-icon" href="image/favicon.png">
 </head>
 <body>
@@ -33,7 +34,18 @@
         </nav>
     </header>
 
-    <main style="background-color: white; height: 80vh;"></main>
+    <main style="background-color: #FBF5E4; height: 80vh;">
+        <div class="card-container">
+            <div class="card" onclick="this.classList.toggle('flipped')">
+                <div class="card-front">
+                    <img src="image/card-front.jpg" alt="Card Front">
+                </div>
+                <div class="card-back">
+                    <img src="image/card-back.jpg" alt="Card Back">
+                </div>
+            </div>
+        </div>
+    </main>
 
     <footer>
         <p>&copy; 2025 Holocards. All rights reserved.</p>
