@@ -9,7 +9,8 @@
     <link rel="icon" type="image/x-icon" href="image/favicon.png">
 </head>
 <body>
-    <script src="Scripts/script.js"></script>
+    <script src="Scripts/script.js" defer></script>
+    <script src="Scripts/scroll.js" defer></script>
     <header>
         <a href="index.html"><img src="image/HC.png" alt="Logo"></a>
         <div class="hamburger" onclick="toggleMenu()">
@@ -24,7 +25,6 @@
                 <li><a href="learn.html">LEARN HOLOCARDS</a></li>
                 <li><a href="update.html">UPDATES</a></li>
             </ul>
-
             <ul class="nav-menu">
                 <li><a href="database.html">DATABASE</a></li>
                 <li><a href="playnow.html">PLAY NOW</a></li>
@@ -33,20 +33,23 @@
             </ul>
         </nav>
     </header>
-
     <main style="background-color: #FBF5E4; height: 80vh;">
         <div class="card-container">
             <div class="card" onclick="this.classList.toggle('flipped')">
                 <div class="card-front">
-                    <img src="image/card-front.jpg" alt="Card Front">
+                    <img id="card-front-image" src="image/satyr.PNG" alt="Card Front">
                 </div>
                 <div class="card-back">
-                    <img src="image/card-back.jpg" alt="Card Back">
+                    <img id="card-back-image" src="image/pp.png" alt="Card Back">
                 </div>
+            </div>
+            <div class="card-navigation">
+                <button id="prev-card">&lt;</button>
+                <span id="card-name">Satyr</span>
+                <button id="next-card">></button>
             </div>
         </div>
     </main>
-
     <footer>
         <p>&copy; 2025 Holocards. All rights reserved.</p>
     </footer>
