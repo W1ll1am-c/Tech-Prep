@@ -1,2 +1,13 @@
 @import url(style.css);
 
+h1,ol,ul{
+    color: black;
+}
+
+
+main{
+    padding-left: 5%;
+    margin-top: 5%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
