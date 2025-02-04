@@ -56,8 +56,96 @@
     border-radius: 10px;
 }
 
-@media (max-width: 768px){
-    .card{
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    /* Space between sections */
+    padding: 20px;
+    flex-wrap: wrap;
+    /* Prevents overflow issues */
+}
+
+.showcase {
+    flex: 1;
+    /* Takes up half the space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    /* Aligns content to the left */
+    padding: 20px;
+    height: auto;
+    /* Adjusts to content */
+}
+
+.card-container {
+    flex: 1;
+    /* Takes up half the space */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.showcase2{
+    display: none;
+}
+
+.showcase {
+    position: relative;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    font-family: 'gotham-ultra';
+}
+
+.showcase-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.showcase img , .showcase2 img{
+    max-height: 200px;
+    margin-bottom: 20px;
+
+}
+
+.showcase button, .showcase2 button {
+    background-color: #004d24;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .card {
         display: none;
+    }
+
+    .main-content{
+        display: none;
+    }
+
+    .showcase2 {
+        position: relative;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: Center;
+        font-family: 'gotham-ultra';
+        padding: 0px;
+
     }
 }

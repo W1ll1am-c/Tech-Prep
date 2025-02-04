@@ -5,7 +5,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100%;
+    height: 100vh;
+    gap: 20%;
 }
 
 .card {
@@ -76,6 +77,8 @@
     margin: 0 10px;
 }
 
+
+
 @media (max-width: 768px) {
     .card-navigation {
        gap: 10px;
@@ -88,15 +91,3 @@
     }
 }
 
-@media (min-width: 769px) {
-    .card-container {
-        flex-direction: row;
-        justify-content: flex-start;
-        justify-content: center;
-    }
-
-    .card-navigation {
-        margin-top: 10px;
-        margin-left: 20px;
-    }
-}

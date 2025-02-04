@@ -69,43 +69,6 @@ a:active {
     color: lightblue; 
 }
 
-.showcase {
-    position: relative;
-    background-color: #222;
-    height: 80vh;
-    display: flex;
-    justify-content: center; /* Keeps vertical centering */
-    align-items: flex-start; /* Aligns content to the left */
-    flex-direction: column;
-    text-align: left; /* Aligns text left */
-    font-family: 'gotham-ultra';
-    padding-left: 5%; /* Adjust padding to control the left margin */
-}
-
-.showcase-content {
-    display: flex;
-    flex-direction: column; /* Stack image and button */
-    align-items: center; /* Center button relative to image */
-}
-
-.showcase img {
-    max-height: 200px;
-    margin-bottom: 20px;
-   
-}
-
-.showcase button {
-    background-color:#004d24;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1.2rem;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-
-
 .upcoming {
     display: flex;
     justify-content: center;
@@ -211,18 +174,6 @@ footer {
         display: flex; /* Show hamburger menu */
     }
 
-    .showcase {
-        position: relative;
-        background-color: #222;
-        height: 80vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        text-align: Center;
-        font-family: 'gotham-ultra';
-        padding: 0px;
-     
-    } 
+
 }
 
