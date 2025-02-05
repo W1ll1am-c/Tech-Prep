@@ -13,8 +13,8 @@
 
 .card {
     perspective: 1000px;
-    width: 200px;
-    height: 300px;
+    width: 240px;
+    height: 360px;
     transition: transform 0.6s;
     transform-style: preserve-3d;
 }
@@ -79,9 +79,14 @@
     margin: 0 10px;
 }
 
+.message{
+    display: none;
+}
+
 
 
 @media (max-width: 768px) {
+
 
     .card-container {
         padding-top: 50%;
@@ -96,8 +101,24 @@
 
 }
 
-@media (max-height: 679px){
+@media  (max-height: 790px){
+    .card{
+        width:200px;
+        height:300px;
+    }
+}
+
+@media (max-height: 665px){
     .card-container{
         display: none;
+    }
+
+    .message{
+        display: flex;
+        font-size: 1.5em;
+        text-align: center;
+        align-items: center;
+        color: white;
+        height: 50vh;
     }
 }
