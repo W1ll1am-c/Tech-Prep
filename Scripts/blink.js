@@ -2,16 +2,19 @@ const updates = [
     "Initializing update log...",
     "Patch 0.5.0 Applied!",
     "Patch Notes:",
-    "Added mobile views... Kinda broken, but useable",
-    "Holocards: The Game is still WIP... Game is in the testing phase!",
+    "Implimented card database",
+    "Stared app and e-ink card dev",
+    "Refined UI and overall desgin",
+    " ",
+    "...Holocards!: The Game is still WIP... Game is complete. In our final days of dev",
     " ",
     "You are logged in as 'UPDATE'   --Type 'fetch' for current engine version.   --Type exit to quit.", 
     "Holocards | MMXXV"
   ];
   
   const fetchArt = ` 
- ───▄▀▀▀▄▄▄▄▄▄▄▀▀▀▄─── Dizz HTML Engine V0.1.0 (Sleepy Bear)
- ───█▒▒░░░░░░░░░▒▒█─── Last Updated Mon Jan 27 14:52:34
+ ───▄▀▀▀▄▄▄▄▄▄▄▀▀▀▄─── Dizz HTML Engine V0.9.0 (Sleepy Bear)
+ ───█▒▒░░░░░░░░░▒▒█─── Last Updated Wed Feb 5 13:53:34
  ────█░░█░░░░░█░░█──── Logged in as 'UPDATE'
  ─▄▄──█░░░▀█▀░░░█──▄▄─ 
  █░░█─▀▄░░░░░░░▄▀─█░░█ Don't wake the bear.
@@ -60,6 +63,8 @@ const updates = [
         terminalOutput.textContent += `${fetchArt}\n`;
       } else if (command === "exit") {
         window.location.href = "index.html";
+      } else if (command === "bomboclat") {
+        terminalOutput.textContent += "bomboclattttttttt!\n";
       } else {
         terminalOutput.textContent += "Command not found, I'm not a miracle worker.\n";
       }
