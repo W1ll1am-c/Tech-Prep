@@ -1,12 +1,14 @@
 @import url(style.css);
+
 /* Card Animation Styles */
 /* Center card and navigation buttons */
 .card-container {
+    padding-top: 10%;
+    padding-bottom: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
-    gap: 20%;
+
 }
 
 .card {
@@ -80,8 +82,10 @@
 
 
 @media (max-width: 768px) {
-    .card-navigation {
-       gap: 10px;
+
+    .card-container {
+        padding-top: 50%;
+        height: 50vh;
     }
 
     .card-navigation button {
@@ -89,5 +93,11 @@
         padding: 10px;
         font-size: 1.2rem;
     }
+
 }
 
+@media (max-height: 679px){
+    .card-container{
+        display: none;
+    }
+}
