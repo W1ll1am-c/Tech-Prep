@@ -13,7 +13,7 @@ const updates = [
   ];
   
   const fetchArt = ` 
- ───▄▀▀▀▄▄▄▄▄▄▄▀▀▀▄─── Dizz HTML Engine V0.9.0 (Sleepy Bear)
+ ───▄▀▀▀▄▄▄▄▄▄▄▀▀▀▄─── Dizz HTML Engine V0.9.9 (Sleepy Bear)
  ───█▒▒░░░░░░░░░▒▒█─── Last Updated Wed Feb 5 13:53:34
  ────█░░█░░░░░█░░█──── Logged in as 'UPDATE'
  ─▄▄──█░░░▀█▀░░░█──▄▄─ 

@@ -1,15 +1,15 @@
 // Define card data
 const cards = [
-    { name: "Satyr", front: "image/satyr.PNG", back: "image/pp.png" },
-    { name: "Cerberus", front: "image/c.png", back: "image/pp.png" },
-    { name: "Theta", front: "image/th.png", back: "image/pp.png" },
-    { name: "Tau", front: "image/ta.png", back: "image/pp.png" },
-    { name: "Gorgon", front: "image/g.png", back: "image/pp.png" },
-    { name: "Banana Comeback", front: "image/bc.png", back: "pp.png" },
-    { name: "Potion Comeback", front: "image/pp.png", back: "image/pp.png" },
-    { name: "Meander", front: "image/m.PNG", back: "image/pp.png" },
-    { name: "Unlucky Comeback", front: "image/uc.png", back: "image/pp.png" },
-    { name: "Scale Comeback", front: "image/sc.png", back: "image/pp.png" }
+    { name: "Satyr", front: "image/satyr.PNG", back: "image/cb.png" },
+    { name: "Cerberus", front: "image/c.png", back: "image/cb.png" },
+    { name: "Theta", front: "image/th.png", back: "image/cb.png" },
+    { name: "Tau", front: "image/ta.png", back: "image/cb.png" },
+    { name: "Gorgon", front: "image/g.png", back: "image/cb.png" },
+    { name: "Banana Comeback", front: "image/bc.png", back: "images/cb.png" },
+    { name: "Potion Comeback", front: "image/pp.png", back: "image/cb.png" },
+    { name: "Meander", front: "image/m.PNG", back: "image/cb.png" },
+    { name: "Unlucky Comeback", front: "image/uc.png", back: "image/cb.png" },
+    { name: "Scale Comeback", front: "image/sc.png", back: "image/cb.png" }
 ];
 
 let currentIndex = 0;
