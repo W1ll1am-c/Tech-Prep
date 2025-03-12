@@ -67,6 +67,8 @@
 
 .card-navigation span {
     color: black;
+    min-width: 210px;
+    text-align: center;
 }
 
 .card-navigation button:hover {
